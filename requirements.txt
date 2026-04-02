@@ -1,0 +1,32 @@
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Database
+sqlalchemy
+pyodbc         # MSSQL driver
+aioodbc        # async MSSQL
+alembic        # Database migrations
+
+# AI / LangChain
+langchain
+langchain-core
+langchain-groq
+langgraph
+
+# Voice
+openai-whisper   # STT (local)
+gtts                # TTS fallback
+pydub              # audio processing
+soundfile
+
+# Utilities
+pydantic
+pydantic-settings
+python-dotenv
+httpx
+python-jose[cryptography]  # JWT auth
+passlib[bcrypt]
+slowapi             # rate limiting
+structlog                    
+tenacity
